@@ -6,3 +6,20 @@ declare module "*.vue" {
   const component: DefineComponent<{}, {}, any>;
   export default component;
 }
+
+declare module "*.glb" {
+  const src: string;
+  export default src;
+}
+declare module "*.obj" {
+  const src: string;
+  export default src;
+}
+declare module "*.fbx" {
+  const src: string;
+  export default src;
+}
+declare module "*.blend" {
+  const src: string;
+  export default src;
+}

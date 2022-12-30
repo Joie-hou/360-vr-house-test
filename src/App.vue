@@ -19,6 +19,10 @@ body {
   height: 100%;
   background-color: white;
 }
+#app {
+  width: 100%;
+  height: 100%;
+}
 
 div {
   box-sizing: border-box;

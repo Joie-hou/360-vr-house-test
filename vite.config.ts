@@ -14,6 +14,7 @@ export default defineConfig({
       "@": resolve("src"),
     },
   },
+  assetsInclude: ["*.glb", "*.obj", "*.fbx", "*.blend"],
   server: {
     port: 3000,
   },
